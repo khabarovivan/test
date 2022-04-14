@@ -1,0 +1,15 @@
+hdfs
+pandas
+pandasql
+crontab
+
+apache-airflow==2.1.2
+apache-airflow-providers-apache-hdfs
+apache-airflow-providers-apache-hive
+
+pyspark==3.1.2
+apache-airflow-providers-apache-spark==2.0.0
+apache-airflow-providers-oracle==2.0.0
+apache-airflow-providers-apache-cassandra==2.0.0
+pickle5; python_version> '3.4' and python_version < '3.8'
+
