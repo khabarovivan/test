@@ -18,7 +18,7 @@ DAG_DEFAULT_ARGS = {'start_date': datetime(2020, 1, 1), 'depends_on_past': False
 DEFAULT_POSTGRES_CONN_ID = "postgres_default"
 AIRFLOW_HOME = getenv('AIRFLOW_HOME', '/opt/airflow')
 
-DAG_ID = "GOOGLE_DRIVE_DOWNLOAD"
+DAG_ID = "GOOGLE_DRIVE_DOWNLOAD_SECOND"
 schedule = "@hourly"
 
 # Google drive environment variables
