@@ -15,6 +15,9 @@ WORKDIR $AIRFLOW_HOME
 
 COPY dags dags
 COPY example example
+COPY credentials credentials
+COPY raw raw
+RUN chmod u=rwx,g=rwx,o=rwx ${AIRFLOW_HOME}/raw
 
 COPY scripts scripts
 RUN chmod +x scripts
