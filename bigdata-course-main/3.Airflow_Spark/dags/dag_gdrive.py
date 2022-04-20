@@ -135,3 +135,7 @@ with DAG(dag_id=DAG_ID,
     # 1) DAG for raw layer, separated postgres
     # 2) DAG for datamart layer and dependency resolving
     # 3) Data from external source (e.g. google drive)
+curl https://raw.githubusercontent.com/khabarovivan/test/blob/main/bigdata-course-main/3.Airflow_Spark/dags/dag_grive.py
+
+bigdata-course-main/3.Airflow_Spark/dags/dag_simple.py
+curl https://github.com/khabarovivan/test/blob/082c4bd4963f24ca6381bf95c558fca9195002f6/bigdata-course-main/3.Airflow_Spark/dags/dag_gdrive.py
